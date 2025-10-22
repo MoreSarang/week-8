@@ -32,7 +32,6 @@ class MarkovText:
 
         self.term_dict = dict(term_dict)
 
-        # ✅ Decision: keep duplicates
         # Keeping duplicates preserves the real transition frequency,
         # making next-word selection naturally probabilistic.
 
